@@ -45,4 +45,16 @@ Step 6: Commands
      - git status
      - git add
      - git commit -m "...." (..... --> "added test1.txt")
+     - git remote add origin "location of remote repo"
+     - git push -u origin master
+     - git remote add origin "location of remote repo"
+     - git push -u origin master
 
+Cd /Users/Albiorix Technology/Desktop
+
+Commands in Git:
+git status - Display a list of files in your staging directory with accompanying file status
+git add [filename] - Stage file changes
+git commit - Save changes to your Git repository
+git init - create a new repo
+- Executing this command will create a new .git subdirectory in your current working directory.

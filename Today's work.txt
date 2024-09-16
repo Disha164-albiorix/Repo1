@@ -18,8 +18,17 @@ Ignore some negative minded people
 
 Today's update: 8 hours 
 
+MyVillage: 2 hours
+- Tested ticket PORTAL-902 on amplify server 
+- Newly created assignments assigned to stakeholders and organizations
+- Assignment submitted by associated members
+- Checked submission details on web
 
 
+Learn:
+- How to install, Signup, login into the github
+- Run commands on command prompt
+- 
 
 
 
