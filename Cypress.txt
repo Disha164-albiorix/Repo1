@@ -1,0 +1,12 @@
+What is Cypress?
+
+- Test automation tool
+- Can test anything that runs on a web browser
+- Write test in JavaScript or TypeScript
+
+Cypress Features:
+
+- Time Travel: Takes snapshots as your tests run
+- Debuggability: Readable error and stack traces
+- Automatic Waiting: Automatically waits for commands and assertions before moving on
+- Consistent Results: Doesn't use Selenium or WebDriver. Fast, consistent and reliable 

@@ -1,0 +1,262 @@
+JMeter 
+---------------------
+
+Test Plan  (Test suite) - collection of multiple test cases
+Thread Group (Test case) 
+Thread (Users) - number of users
+
+-----------------------------
+Different types of steps in JMeter: (Part 1)
+-----------------------------
+1) Samplers - Samplers are used to send requests to server.
+- Test any web page use HTTP Request, FTP Request, JDBC, SMTP, different types of samplers...
+
+2) Listeners - Listeners are used to display results or generate report.
+
+3) Assertions - Assertions are used to apply validations on the response coming from the server.
+- Use of Assertion --> to compare actual result with expected result
+
+4) Timers - Timers are used to insert delay in execution. (Apply some delay)
+
+5) Logic Controllers - Control execution flow using controllers
+- With the help of logic controllers we can controll the flow of execution of the test plan, otherwise 
+elements of test plan with execute in same order in which they are placed.
+
+
+-----------------------------
+Different types of steps in JMeter: (Part 2)
+----------------------------- 
+1) Config Element - used to make configuration before running the test case 
+2) Pre-Processor - pre-processor going to use before running(execute) the sampler
+3) Post-Processor - post-procssor going to execute once we got response from the server
+
+-----------------------------------
+What are Controllers and its types?
+-----------------------------------
+ANSWER: JMeter has two types of Controllers:
+
+Samplers Controllers: Samplers allow JMeter to send specific types of requests to a server.
+They simulate a user's request for a page from the target server. For example, you can add a 
+HTTP Request sampler if you need to perform a POST, GET, DELETE on a HTTP service.
+
+Logical Controllers: Logic Controllers let you control order of processing of Samplers in a Thread. 
+Logic Controllers can change the order of request coming from any of their child elements. Some
+examples are: For Controller, While Controller, Loop Controller, IF Controller, Run Time Controller, 
+Interleave Controller, Throughput Controller, Run Once Controller.
+
+
+Recording Test Script in JMeter
+-------------------------------
+- It will not record user's information, it will record request which we are sending to the server
+1) Add NonTest Element - http Recording 
+2) Set Proxy on Browser
+3) Start Recording in different Recording Controller
+4) Start Scenario Recording
+5) Stop recording, Save
+
+
+Recording in JMeter using Badboy
+-------------------
+1. Set Proxy Settings
+2. Install Certificate on Browser
+3. Start recording 
+
+
+Recording using Blazemeter plugin
+------------------
+1. Create account on Blazemeter
+2. Install Blazemeter plugin
+3. Do recording using blazemeter plugin
+4. Download recording
+5. Open recording in JMeter and use it
+
+
+Execution flow of different elements:
+----------------------------------
+
+Config elements --> Pre Processors --> Timers --> Samplers --> Post Pro --> Assertions --> Listeners
+
+- Pre processors execute before the timer
+- Post processor execute after the sampler
+- Timer priority is more when it's(timer) put in the child of sampler
+- Samplers and logic controllers are ordered in nature
+- Rest of elements are hierarchical in nature
+
+JMeter Templates:
+-------------------
+1) Templates are scripts which we can use as reference
+2) We can use existing templates
+3) We can create our own templates
+
+------> Learn templates in detail (MongoDB Template)
+
+
+Config Element:
+-------------------- 
+1) HTTP request default
+
+2) Cookie and Cache Manager
+
+3) User Defined Variables - we can create variable and use it in all steps
+Name: add "url"
+Value: add the link
+Sampler - HTTP request --> use this variable as ${url}
+
+4) CSV Data Set Config - define varible value in CSV file and define varible name in JMeter
+
+5) Counter - to generate numeric data we can use counter (use "Debug Sampler")
+
+6) Random Variable - we can get the random value(numeric value) (use "Debug Sampler")
+- define variable name & add min & max value
+- seed for random function - it will generate the same random value in every debug
+
+
+
+
+Logic Controller:
+----------------
+1) Simple Controller - it will execute all child request in sequential order
+- Just for grouping similar request together
+2) Random Controller - it execute only 1 child which is selected randomly(it picks one at random at each pass)
+3) Random Order Controller - it execute all childs but execute in random order
+4) Interleave Controller - it execute only one child which is picked in order it is placed(top to down)
+- pick top to down one iteration at a time
+5) Loop Controller - only selected request will execute selected time(5 times)
+6) If Controller - 
+7) Only Once Controller - Whatever step we want to execute only for 1st iteration, we will place in only
+once controller
+8) Runtime Controller - We can control execution by its time, if my execution is over before time then it 
+will start running in loop 
+9) Module Controller - We can call other controllers by using Module controller, other controller 
+can be in same thread group or other thread group
+
+${URL}/login.php
+
+
+Timers in JMeter:
+-------------------
+Timers are use to add pause between steps execution
+
+1) Constant Timer: To put constant delay between steps
+2) Uniform Random Timer: To put random delay between steps
+
+Synchronizing Timer:
+- With the help of synchronizing timer we can wait for users to reach on a specified point so that all 
+users can send text request concurrently
+
+
+Assertions in JMeter:
+---------------------
+With the help of assertions we can validate response coming from server
+
+1) Duration Assertion: Validate time in which response is received from server
+2) Size Assertion: Validate size of response, received from server
+3) HTML Assertion: With HTML assertion, we can validate response HTML page is following all HTML rules 
+and not having any error or warning
+4) Response Asserion: 
+
+
+Listeners in JMeter:
+---------------------
+Listener - elememnts that gather information about the performance test
+- Used to view results/metrics of the test
+
+1) View Results in Table 
+2) View Results Tree
+3) Aggregate Report - single line of response generated
+4) Aggregate Graph - result in the graph view
+(consuming lot of memory, if you create a very heavy load performance do not use this listener)
+5) Summary report
+6) Simple Data Writer - Browse a file and get the response in the file(CSV file)
+Configure - Select the option which record you want to save in the file(CSV file)
+7) Assertion Listener - 
+
+
+How to record UI Test in JMeter:
+-------------------------------
+1. Tools available for recording JMeter UI test
+- Badboy software (Windows)
+- Blazemeter - Chrome Plugin - Windows and Mac
+
+2. Record a Test
+
+3. Export as JMeter (.jmx) script
+
+4. Open the script in JMeter
+
+5. Add Listeners
+
+6. Run and validate
+==============================
+
+
+Pre and Post processors in JMeter:
+---------------------------
+1) User Parameter
+
+
+
+Configuration Elements:
+
+Configuration elements can be used to set up defaults and variables for later use by samplers. 
+Note that these elements are processed at the start of the scope in which they are found,
+i.e. before any samplers in the same scope.
+
+
+
+JMeter Samplers:
+- Samplers are used to send different types of requests to the server. 
+
+1) FTP Request: 
+
+2) HTTP Request: 
+- http: 80
+- https: 443
+
+
+3) JDBC Request: 
+- This sampler lets you send a JDBC Request (an SQL query) to a database.
+- Before using this you need to set up a JDBC Connection Configuration Configuration element
+
+
+
+How to create REST API Request in JMeter:
+-----------------------------------------
+
+GET (List Users), POST (Create), PUT (Update), DELETE
+
+GET: Response - 200
+POST: Response - 201
+PUT: Response - 200
+DELETE: Response - 204
+
+Testing URL: https://reqres.in/
+
+Step 1: Right click on Test Plan > Add > Thread (Users) > Thread Group
+Step 2: Right click on Thread Group > Add > Sampler > HTTP Request
+Step 3: Add the API data in HTTP Request Sampler
+Step 4: Add View Results Tree Listener
+Step 5: Add View Results Table Listener
+Step 6: Save the test plan
+Step 7: Run and check results
+
+
+How to create a SOAP API Request in JMeter:
+----------------------------------------
+
+Testing URL: http://www.dneonline.com/calculator.asmx
+
+
+
+
+Free Database:
+URL: https://www.db4free.net/
+Database: newdemodatabase
+Username: newdemodatabase
+Email: jemecoy241@nexxterp.com
+Password: Test@1234
+
+
+
+
+
