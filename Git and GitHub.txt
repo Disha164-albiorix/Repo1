@@ -1,0 +1,48 @@
+GIT - VCS - version controll system
+
+- to track changes in files/folders
+- to collaborate in teams
+
+
+GIT is a - DVCS (Distibuted Version Control System)
+
+-----------------------
+
+GIT HUB - Git hub is a website to upload your repositories online
+        - provides backup
+        - provides visual interface to your repositories
+        - makes collaboration easier
+
+GIT != GIT HUB
+
+- GIT is a Version Control System 
+- GitHub is a just a website where you can put your repositories
+- 
+
+
+
+Repository:
+
+Install Git:
+
+Step 1: Check if git is already installed
+        terminal - git --version
+
+Step 2: Download and install git
+
+Step 3: Signup and create a account on GitHub
+       https://github.com
+
+Step 4: Add your github email and username to git
+      git config --global user.email "dishap.albiorix@gmail.com"
+      git config --global user.name "Disha164-albiorix"
+ 
+Step 5: Add file/folder to git - tracking the changes
+
+Step 6: Commands
+     - terminal - goto the location of the folder/project
+     - git init
+     - git status
+     - git add
+     - git commit -m "...." (..... --> "added test1.txt")
+

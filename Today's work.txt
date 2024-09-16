@@ -1,0 +1,154 @@
+cal
+Wifi: Albiorix712A
+Password: 37Al#bi0
+wifi password: air73137
+Albiorix712
+37Al#bi0
+Airtel_9979372772_5.0ghz
+air73137
+-----------------------------
+
+Be kind
+Don't take stress
+Be Happy and Healthy
+Nothing is dependent on you so don't overreact
+Ignore some negative minded people
+
+
+
+Today's update: 8 hours 
+
+
+
+
+
+
+Stakeholder: Email for upper and lowercase
+Member - Done
+Stakeholder - Create, Edit - Done
+School - New create, Edit - Not Done
+Event - Done
+Student - Done
+Assignments - New create, edit new user - Done
+
+1. New account created from web and try to login into the app - please sign in first validation 
+message
+2. New account created from web and sign up from the app
+3. Login, Forgot password, Reset password from the app
+4. Tried to sign up and login using the email passed in upper and lowercases
+5. Inactive account from the web and tried to login into the app 
+6. Delete account and tried to login using the same email
+7. New account created using deleted email on web
+8. Tried to login using the new email and validation message showing for signup on app
+9. Signup using the new member code and try to login - Successfully login
+
+
+
+VS Code:
+- Git and GitHub
+
+
+
+Amplify server:
+1226
+355
+282
+0
+70
+
+
+Dev server:
+1813
+106
+91
+0
+8
+
+
+Questions to search:
+1. Music files extensions
+2. App size: Android, iPhone, Game app, Game size
+3. Compressed app size
+4. React JS: Use for create web app and web pages
+5. React Native: Use for create native mobile apps for android & iOS
+6. Difference between Sanity and Smoke testing 
+7. Two-factor authentication (2FA)
+
+
+
+ 
+'When' is used to express two single actions that happen simultaneously. 
+'While' is used to express two continuous actions that happen simultaneously. 
+If you pay close attention, you can see that 'when' and 'while' both express a condition and 
+its results. She was mad at me when I broke her favorite photo frame.
+
+
+
+
+grace - downgrade
+200 - 150
+emma - upgrade
+150 - 200
+
+
+
+✨ Bug tracking tools:
+1. Jira -- used 
+2. Monday.com -- used
+3. Asana(task assign tool) -- used
+4. Trello -- used
+5. Mantis Bug Tracker -- used
+6. Bugzilla -- remain
+
+
+-------------------------------------
+NFL - National Football League
+NHL - National Hockey League
+MLB - Major League Baseball
+NBA - National Basketball Association
+-------------------------------------
+
+
+
+
+C --> E,I,Y --> S
+doubt - શંકા
+conspiracy - કાવતરું
+phrase - શબ્દસમૂહ
+obstacles - અવરોધો
+solicit - વિનંતી
+esteemed - આદરણીય
+auspicious occasion - શુભ પ્રસંગ
+penetration - પ્રવેશ
+haphazardly - આડેધડ
+treasure - ખજાનો
+mystery - રહસ્ય
+fiction - કાલ્પનિક
+fragile - નાજુક
+Astonished - આશ્ચર્યચકિત
+pervert - વિકૃત
+lay - મૂકવું
+territories - પ્રદેશો
+praises - વખાણ
+apparel - વસ્ત્ર
+bloating - પેટનું ફૂલવું
+cramp - ખેંચાણ
+rumors - અફવાઓ
+enhance - વધારવું
+Skimp - કંજૂસ
+funeral - અંતિમ સંસ્કાર
+deities - દેવતાઓ
+Heir - વારસદાર
+Conceiving - ગર્ભધારણ
+superstition - અંધશ્રદ્ધા
+exceptional - અપવાદરૂપ
+prominent - અગ્રણી
+rendition- પ્રસ્તુતિ
+fluctuations - વધઘટ
+abrupt - અચાનક
+drastic - સખત
+dizziness - ચક્કર
+cuisine - ભોજન
+abode - રહેઠાણ
+Optimus - શ્રેષ્ઠ
+desperate - ભયાવહ
