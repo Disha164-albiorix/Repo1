@@ -18,17 +18,18 @@ Ignore some negative minded people
 
 Today's update: 8 hours 
 
-MyVillage: 2 hours
-- Tested ticket PORTAL-902 on amplify server 
-- Newly created assignments assigned to stakeholders and organizations
-- Assignment submitted by associated members
-- Checked submission details on web
+MyVillage:
+- Reviewed ticket PORTAL-865, PORTAL-912
+- Tested ticket PORTAL-904 on amplify server
 
-
-Learn:
-- How to install, Signup, login into the github
-- Run commands on command prompt
+Antiresort:
+- UI checked - lightning-deals popup 
 - 
+
+
+
+
+
 
 
 
@@ -58,20 +59,6 @@ VS Code:
 
 
 
-Amplify server:
-1226
-355
-282
-0
-70
-
-
-Dev server:
-1813
-106
-91
-0
-8
 
 
 Questions to search:
